@@ -9,6 +9,12 @@ Thanks for choosing Coolin to build your app.
 
         <meta charset="UTF-8">
         <title></title>
+        <script>
+            function myFunction()
+        {
+            document.getElementById("demo").innerHTML="Hello World";
+        }
+        </script>
     </head>
     <body>
         <div id="container">
@@ -27,6 +33,9 @@ Thanks for choosing Coolin to build your app.
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <br/>
 <!-- end TWITTER feed -->
+<p>Click the button to trigger a function.</p>
+<button onclick="myFunction()">Click me</button>
+<p id="demo"></p>
         </div>
     </body>
 </html>
