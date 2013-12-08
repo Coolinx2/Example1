@@ -1,8 +1,13 @@
 
-.twitter-timeline {
-
+.twitter-timeline a{
+    margin:0 auto;
+}
+#container{
+    text-align: center;
+    margin:30px 30px;
+    background-color:#33ffff;
+    border-radius:13px;
 }
 body{
-    margin: 0 auto;
     background-color:#99ffff;
 }
